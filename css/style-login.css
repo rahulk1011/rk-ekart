@@ -1,0 +1,148 @@
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+  margin: 0px; 
+  padding: 0px; 
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/bglogin.jpg");
+  background-size: cover;
+  font-family: 'Abel';
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ login ]*/
+
+.container-login100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;  
+}
+
+.wrap-login100 {
+  width: 450px;
+  border-radius: 5%;
+  overflow: hidden;
+  padding: 55px 55px 37px 55px;
+  background-image: url("images/bgloginform.jpg");
+  /*background-size: 100%;*/
+  opacity: 0.8;
+}
+
+/*------------------------------------------------------------------
+[ Form ]*/
+
+.login100-form {
+  width: 100%;
+}
+
+.login100-form-logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-image: url("images/logo.jpg");
+  margin: 0 auto;
+}
+
+.login100-form-title {
+  font-size: 30px;
+  color: black;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	text-align: center;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  font-family: 'Abel';
+  font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.button-anchor {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;  
+  cursor: pointer;
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.form-control {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  padding: 0 20px 0 20px;
+  margin: 2px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+.anchor-div {
+  font-family: "abel";
+  font-weight: bolder;
+  display: table-cell;
+  vertical-align: middle;
+  position: absolute;
+}

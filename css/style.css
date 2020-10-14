@@ -1,0 +1,124 @@
+body {
+  background-image: url("images/bglogin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Abel";
+}
+
+table {
+	align-self: center;
+	text-align: center;
+  border: 1px solid white;
+  border-spacing: 0px;
+  background-color: white;
+}
+
+th {
+  background-color: midnightblue;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+td {
+  background-color: lightgray;
+	color: black;
+	padding: 5px 5px 5px 10px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: white;
+	text-align: center;
+}
+
+label {
+	font-size: medium;
+	font-weight: bold;
+	color: midnightblue; 
+}
+
+.button {
+  background-color: midnightblue;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  /*font-family: "calibri";*/
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.button-anchor {
+  background-color: gainsboro;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Abel";
+}
+
+.button-checkout {
+  background-color: gainsboro;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  width: 120px;
+  height: 35px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  /*font-family: "calibri";*/
+}
+
+.form-control {
+  width: 75%;
+  padding: 5px;
+  margin: 2px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+select {
+  width: 75%;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+p {
+  text-align: center;
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2);
+}
